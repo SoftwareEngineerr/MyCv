@@ -1,0 +1,882 @@
+.Header{
+    padding-top: 30px;
+    background-color: #EBEEF3;
+}
+.Header ul{
+    display: block;
+    list-style-type: none;
+}
+.Header li{
+    float: left;
+    margin: 0px;
+    margin-top: 15px;
+}
+.Header .menu{
+    width: 50px;
+    color: blue;
+    margin-top: 10px;
+    transition: 0.4s;
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 6px;
+    padding-top: 30px !important;
+}
+.Header .menu:hover{
+    color: #0bb3e4;
+}
+.Header .icons{
+    margin-top: 15px;
+    overflow: hidden;
+}
+.Header .face{
+    border-radius: 50%;
+    padding: 0px  15px;
+    position: absolute;
+    font-weight: 600;
+    transition: 0.4s;
+    float: right;
+    font-size: 23px;
+    background-color: #EBEEF3;
+    border: 2px solid rgb(173, 173, 173);
+}
+.Header .face:hover{
+    color: white;
+    background-color: #39569c;
+}
+.Header .insta{
+    border-radius: 50%;
+    margin-left: 60px;
+    padding: 0px  10px;
+    position: absolute;
+    transition: 0.4s;
+    font-weight: 600;
+    float: right;
+    font-size: 23px;
+    background-color: #EBEEF3;
+    border: 2px solid rgb(173, 173, 173);
+}
+.Header .insta:hover{
+    color: white;
+    background-color: #0bb3e4;
+}
+.Header .in{
+    border-radius: 50%;
+    margin-left: 120px;
+    padding: 1px  10px;
+    position: absolute;
+    font-weight: 600;
+    transition: 1s;
+    float: right;
+    font-size: 23px;
+    background-color: #EBEEF3;
+    border: 2px solid rgb(173, 173, 173);
+}
+.Header .instagram{
+    font-size: 19px;
+    margin-top: -3px;
+}
+.Header .in:hover #insta{
+    color: white;
+}
+.Header .in:hover{
+    background-color: #f50589;
+}
+.Header .twitter{
+    border-radius: 50%;
+    margin-left: 180px;
+    padding: 1px  10px;
+    position: absolute;
+    font-weight: 600;
+    float: right;
+    transition: 0.4s;
+    font-size: 23px;
+    background-color: #EBEEF3;
+    border: 2px solid rgb(173, 173, 173);
+}
+.Header .twit{
+    font-size: 19px;
+    margin-top: -3px;
+}
+.Header .twitter:hover #twit{
+    color: white;
+}
+.Header .twitter:hover{
+    background-color: #05d5f5;
+}
+.Header .backTotop{
+    background-color: #0bb3e4;
+    z-index: 315;
+    width: 40px;
+    height: 40px;
+    line-height: 36px;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 850px;
+    margin-right: 5%;
+    cursor: pointer;
+    position: fixed;
+    transition: all .7s ease-in-out;
+    color: #fff;
+    right: 25px;
+    /* cursor: pointer; */
+    -webkit-transition: all .7s ease-in-out;
+    -moz-transition: all .7s ease-in-out;
+    -o-transition: all .7s ease-in-out;
+    -ms-transition: all .7s ease-in-out;
+}
+.Header .backTotopicon{
+    display: inline-block;
+    vertical-align: middle;
+    fill: #fff;
+}
+.Home .fristsection{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    background-color: #EBEEF3;
+}
+.Home .fristsection .Name{
+    margin-top: 150px;
+    transition: 0.4s;
+    margin-bottom: 30px;
+    line-height: 1.5ch;
+    font-size: 110px;
+}
+.Home .fristsection .Name:hover{
+    color: #0bb3e4;
+}
+@media screen and (max-width: 1366px) {
+    .Home .Name{
+      font-size: 72px;
+    }
+  }
+.Home .rob{
+    font-size: 28px;
+}
+.Home .separator{
+    background-color: #f7ab00;
+    width: 40px;
+    height: 6px;
+    margin-top: 30px;
+}
+.Home .but1{
+    font-size: 20px;
+    padding: 13px 50px;
+    color: white;
+    background-color: #0bb3e4;
+    border-radius: 30px;
+    font-weight: 500;
+    margin-top: 40px;
+    text-transform: capitalize;
+    transition: 0.4s;
+    border: 0px;
+}
+.Home .but1:hover{
+    color: black;
+    background-color: white;
+}
+.Home .entry-container{
+    width: 80%;
+    height: 80%;
+    border-radius: 50%;
+    overflow: hidden;
+    background-color: white;
+    float: right;
+    margin-top: 40px;
+}
+.Home .me{
+    width: 100%;
+    display: block;
+    margin: auto;
+    height: 100%;
+    border-radius: 50%;
+}
+.Home .secondSection .content{
+    font-size: 43px;
+    font-weight: 400;
+    margin-top: 141px;
+    text-align: center;
+}
+.Home .secondSection .separator{
+    margin: auto;
+    display: block;
+    margin-top: 20px;
+}
+.Home .secondSection .educationbutton{
+    font-size: 20px;
+    padding: 13px 50px;
+    color: white;
+    background-color: #0bb3e4;
+    border-radius: 30px;
+    font-weight: 500;
+    margin: auto;
+    display: block;
+    margin-top: 40px;
+    text-transform: capitalize;
+    transition: 0.4s;
+    border: 0px;
+}
+.Home .secondSection .educationbutton:hover{
+    color: white;
+    background-color: black;
+}
+.Home .thirdSection{
+    margin-top: 200px;
+}
+.Home .thirdSection .heading{
+    font-size: 40px;
+    text-align: center;
+    font-weight: 400;
+    font-family: ui-sans-serif;
+}
+.Home .thirdSection .imagehover{
+    background-color: black;
+    width: 97%;
+    position: relative;
+}
+.Home .thirdSection .thirdimage{
+    transition: 0.7s;
+}
+.Home .thirdSection .thirdimage:hover{
+    opacity: 0.4;
+    background-color: black;
+}
+.Home .thirdSection .icon{
+    position: absolute;
+    margin: auto;
+    display: block;
+    border: 1px solid white;
+    text-align: center;
+    width: 12%;
+    border-radius: 50%;
+    top: 46%;
+    left: 43%;
+    right: 43%;
+}
+.Home .thirdSection .rightIcon{
+    right: auto;
+    display: block;
+    margin: auto;
+    color: white;
+    font-size: 68px;
+}
+.Home .thirdSection .imagehover:hover #icon{
+    color: blue;
+}
+.Home .fourSection{
+    width: 100%;
+    margin-top: 100px;
+    height: auto;
+}
+.Home .fourSectionUnderSide{
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to bottom right, rgb(0, 213, 255), rgb(0, 60, 255));
+}
+.Home .fourSection .heading{
+    font-size: 55px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    margin-top: 50px;
+}
+.Home .fourSection #separator{
+    margin-top: -10px;
+}
+.Home .fourSection .web{
+    border: 1px solid rgb(198, 198, 198);
+    width: 100%;
+}
+.Home .fourSection .webicons{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    height: 323px;
+}
+.Home .fourSection .imgcontent{
+    font-size: 27px;
+    text-align: center;
+    margin-top: 9px;
+    height: 100px;
+    color: black;
+    font-weight: 600;
+    transition: 0.5s;
+}
+.Home .fourSection .imgcontent:hover{
+    color: #0bb3e4;
+}
+.Home .fourSection .head{
+    font-size: 40px;
+    text-align: center;
+    font-weight: 400;
+}
+.Home .fourSection #sep{
+    margin: auto;
+    margin-top: 10px;
+    display: block;
+}
+.Home .fiveSection{
+    background-image: url(./image/back.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    background-position: 50%;
+    margin-top: 320px;
+    height: 650px;
+}
+.Home .fiveSection .overlay{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: linear-gradient(to right, #0b88c0 0%,#112e7a 100%,#207cca 100%);
+    opacity: 0.7;
+}
+.Home .wrapper {
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    padding: 50px 10px;
+    width: 100%;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+.Home .space{
+    height: 40px;
+    width: 100%;
+}
+.Home #myProgress {
+    width: 100%;
+    margin-top: 5px;
+    background-color: #ddd;
+  }
+  
+.Home #myBar {
+    width: 90%;
+    height: 15px;
+    background-color: #0bb3e4;
+}
+.Home #myBar1 {
+    width: 80%;
+    height: 15px;
+    background-color: #0bb3e4;
+}
+.Home #myBar2 {
+    width: 75%;
+    height: 15px;
+    background-color: #0bb3e4;
+}
+.Home #myBar3 {
+    width: 80%;
+    height: 15px;
+    background-color: #0bb3e4;
+}
+.Home .leftsidetext{
+    color: white;
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+  .Home .percentage{
+    float: right;
+    font-size: 22px;
+    color: white;
+    font-weight: 600;
+  }
+.Home .Project{
+    padding: 22px 50px;
+    background-color: white;
+    transition: 0.6s;
+    color: black;
+    text-transform: capitalize;
+    border: 0px;
+    font-family: sans-serif;
+    font-weight: 500;
+    text-decoration: none;
+    margin-top: 50px;
+    font-size: 22px;
+    border-radius: 50px;
+}
+.Home .Project:hover{
+    background-color: black;
+    color: white;
+}
+.Home .sixSection{
+    width: 100%;
+    background-color: whitesmoke;
+    height: 850px;
+    padding-top: 100px;
+}
+.Home .sixSection .blogs{
+    font-size: 40px;
+    text-align: center;
+}
+.Home .sixSection #sep{
+    margin: auto;
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 26px;
+}
+.Home .sixSection .blogsimg{
+    width: 25%;
+    float: left;
+    background-color: white;
+    height: 530px;
+}
+.Home .sixSection .content{
+    height: 219px;
+}
+.Home .sixSection .image{
+    width: 100%;
+    height: 300px;
+}
+.Home .sixSection .imageheading{
+    text-align: center;
+    font-size: 19px;
+    margin-top: 10px;
+    transition: 0.4s;
+    color: #f7ab00;
+}
+.Home .sixSection .imagehead{
+    font-size: 25px;
+    text-align: center;
+    transition: 0.4s;
+}
+.Home .sixSection .imagehead:hover{
+    color: #0bb3e4;
+}
+.Home .sixSection .imageheading:hover{
+    color: #0bb3e4;
+}
+.Home .sixSection .admin{
+    text-align: center;
+    margin-top: 20px;
+}
+.Home .sixSection .underadmin:hover{
+    color: #0bb3e4;
+}
+.Footer{
+    height: 500px;
+    width: 100%;
+}
+.Footer .separator{
+    background-color: #f7ab00;
+    width: 40px;
+    height: 6px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.Footer .heading{
+    margin-top: 40px;
+}
+.Footer .hovertext{
+    color: rgb(132, 132, 132);
+}
+.Footer .hovertext:hover{
+    color: #0bb3e4;
+}
+.Footer .me{
+    color: #f7ab00;
+}
+.Footer .me:hover{
+    text-decoration: underline;
+    color: #0bb3e4;
+}
+.Footer .face{
+    border-radius: 50%;
+    padding: 0px  15px;
+    position: absolute;
+    font-weight: 600;
+    transition: 0.4s;
+    float: right;
+    font-size: 23px;
+    background-color: white;
+    border: 2px solid rgb(173, 173, 173);
+}
+.Footer .face:hover{
+    color: white;
+    background-color: #39569c;
+}
+.Footer .insta{
+    border-radius: 50%;
+    margin-left: 60px;
+    padding: 0px  10px;
+    position: absolute;
+    transition: 0.4s;
+    font-weight: 600;
+    float: right;
+    font-size: 23px;
+    background-color: white;
+    border: 2px solid rgb(173, 173, 173);
+}
+.Footer .insta:hover{
+    color: white;
+    background-color: #0bb3e4;
+}
+.Footer .in{
+    border-radius: 50%;
+    margin-left: 120px;
+    padding: 1px  10px;
+    position: absolute;
+    font-weight: 600;
+    transition: 1s;
+    float: right;
+    font-size: 23px;
+    background-color: white;
+    border: 2px solid rgb(173, 173, 173);
+}
+.Footer .instagram{
+    font-size: 19px;
+    margin-top: -3px;
+}
+.Footer .in:hover #insta{
+    color: white;
+}
+.Footer .in:hover{
+    background-color: #f50589;
+}
+.Footer .twitter{
+    border-radius: 50%;
+    margin-left: 180px;
+    padding: 1px  10px;
+    position: absolute;
+    font-weight: 600;
+    float: right;
+    transition: 0.4s;
+    font-size: 23px;
+    background-color: white;
+    border: 2px solid rgb(173, 173, 173);
+}
+.Footer .twit{
+    font-size: 19px;
+    margin-top: -3px;
+}
+.Footer .twitter:hover #twit{
+    color: white;
+}
+.Footer .twitter:hover{
+    background-color: #05d5f5;
+}
+.About .relative{
+    background-image: url(./image/about.jpg);
+    width: 100%;
+    height: 690px;
+    position: relative;
+    background-color: #333;
+    background-size: cover;
+    background-position: 50%;
+}
+.About .overlay{
+    background-color: #152944;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.4;
+}
+.About .wrapper {
+    position: absolute;
+    left: 0;
+    right: 0;
+    text-align: center;
+    width: 100%;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+.About .searchbox{
+    background-color: whitesmoke;
+    padding-top: 82px;
+    padding-bottom: 42px;
+    border-radius: 6px;
+}
+.About .search{
+    margin: 10px 10px 10px 10px;
+    width: auto;
+    display: block;
+    margin: auto;
+    width: 76%;
+    padding: 7px;
+}
+.About .searchicondiv{
+    width: 42px;
+    height: 42px;
+    background: black;
+    color: white;
+    margin-top: -42px;
+    /* margin-left: 363px; */
+    text-align: center;
+    padding: 5px;
+    float: right;
+}
+.About .content{
+    font-size: 19px;
+}
+.About .gallerycontent{
+    font-size: 20px;
+    text-align: center;
+    margin: 3px;
+    color: #05d5f5;
+}
+.About .galleryimage{
+    float: left;
+}
+.About .gallery{
+    float: left;
+    background-color: whitesmoke;
+}
+.About .aboutmenu .heading{
+    text-align: center;
+}
+.About .aboutmenu .text12{
+    margin: auto;
+    display: block;
+    font-size: 19px;
+    margin: 20px;
+}
+.About .aboutmenu{
+    background-color: whitesmoke;
+    padding-top: 42px;
+    padding-bottom: 42px;
+    border-radius: 6px;
+}
+.About .aboutmenucol3{
+    background-color: whitesmoke;
+    padding-top: 42px;
+    padding-bottom: 42px;
+    border-radius: 6px;
+    float: right;
+    width: 417px;
+}
+.About .aboutmenucol3 .heading{
+    text-align: center;
+}
+.About .aboutmenucol3 .text12{
+    margin: auto;
+    display: block;
+    font-size: 20px;
+    line-height: 3.5ch;
+    margin: 20px;
+}
+.Project .relative{
+    background-image: url(./image/project1.jpg);
+    width: 100%;
+    height: 690px;
+    position: relative;
+    background-color: #333;
+    background-size: cover;
+    background-position: 50%;
+}
+.Project .overlay{
+    background-color: #152944;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.4;
+}
+.Project .wrapper {
+    position: absolute;
+    left: 0;
+    right: 0;
+    text-align: center;
+    width: 100%;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+.Project .searchbox{
+    background-color: whitesmoke;
+    padding-top: 82px;
+    padding-bottom: 42px;
+    border-radius: 6px;
+}
+.Project .search{
+    margin: 10px 10px 10px 10px;
+    width: auto;
+    display: block;
+    margin: auto;
+    width: 76%;
+    padding: 7px;
+}
+.Project .searchicondiv{
+    width: 42px;
+    height: 42px;
+    background: black;
+    color: white;
+    margin-top: -42px;
+    /* margin-left: 363px; */
+    text-align: center;
+    padding: 5px;
+    float: right;
+}
+.Project .content{
+    font-size: 19px;
+}
+.Project .gallerycontent{
+    font-size: 20px;
+    text-align: center;
+    margin: 3px;
+    color: #05d5f5;
+}
+.Project .galleryimage{
+    float: left;
+}
+.Project .gallery{
+    float: left;
+    background-color: whitesmoke;
+}
+.Project .aboutmenu .heading{
+    text-align: center;
+}
+.Project .aboutmenu .text12{
+    margin: auto;
+    display: block;
+    font-size: 19px;
+    margin: 20px;
+}
+.Project .aboutmenu{
+    background-color: whitesmoke;
+    padding-top: 42px;
+    padding-bottom: 42px;
+    border-radius: 6px;
+}
+.Project .aboutmenucol3{
+    background-color: whitesmoke;
+    padding-top: 42px;
+    padding-bottom: 42px;
+    border-radius: 6px;
+    float: right;
+    width: 417px;
+}
+.Project .aboutmenucol3 .heading{
+    text-align: center;
+}
+.Project .aboutmenucol3 .text12{
+    margin: auto;
+    display: block;
+    font-size: 20px;
+    line-height: 3.5ch;
+    margin: 20px;
+}
+.Experience .relative{
+    background-image: url(./image/experience.jpg);
+    width: 100%;
+    height: 690px;
+    position: relative;
+    background-color: #333;
+    background-size: cover;
+    background-position: 50%;
+}
+.Experience .overlay{
+    background-color: #152944;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.4;
+}
+.Experience .wrapper {
+    position: absolute;
+    left: 0;
+    right: 0;
+    text-align: center;
+    width: 100%;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+.Experience .searchbox{
+    background-color: whitesmoke;
+    padding-top: 82px;
+    padding-bottom: 42px;
+    border-radius: 6px;
+}
+.Experience .search{
+    margin: 10px 10px 10px 10px;
+    width: auto;
+    display: block;
+    margin: auto;
+    width: 76%;
+    padding: 7px;
+}
+.Experience .searchicondiv{
+    width: 42px;
+    height: 42px;
+    background: black;
+    color: white;
+    margin-top: -42px;
+    /* margin-left: 363px; */
+    text-align: center;
+    padding: 5px;
+    float: right;
+}
+.Experience .content{
+    font-size: 19px;
+}
+.Experience .gallerycontent{
+    font-size: 20px;
+    text-align: center;
+    margin: 3px;
+    color: #05d5f5;
+}
+.Experience .galleryimage{
+    float: left;
+}
+.Experience .gallery{
+    float: left;
+    background-color: whitesmoke;
+}
+.Experience .aboutmenu .heading{
+    text-align: center;
+}
+.Experience .aboutmenu .text12{
+    margin: auto;
+    display: block;
+    font-size: 19px;
+    margin: 20px;
+}
+.Experience .aboutmenu{
+    background-color: whitesmoke;
+    padding-top: 42px;
+    padding-bottom: 42px;
+    border-radius: 6px;
+}
+.Experience .aboutmenucol3{
+    background-color: whitesmoke;
+    padding-top: 42px;
+    padding-bottom: 42px;
+    border-radius: 6px;
+    float: right;
+    width: 417px;
+}
+.Experience .aboutmenucol3 .heading{
+    text-align: center;
+}
+.Experience .aboutmenucol3 .text12{
+    margin: auto;
+    display: block;
+    font-size: 20px;
+    line-height: 3.5ch;
+    margin: 20px;
+}
