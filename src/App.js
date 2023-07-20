@@ -16,6 +16,7 @@ const App = () => {
   return(
     <div>
        <Router>
+    sami
        <Header />
       <Switch>
        <Route path='/' exact><Home /></Route>
